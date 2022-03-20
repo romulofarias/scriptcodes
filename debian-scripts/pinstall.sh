@@ -3,7 +3,7 @@
 apt install pcmanfm neovim python3-neovim git tmux filezilla \
 	papirus-icon-theme breeze-icon-theme breeze-cursor-theme unrar \
     i3 i3blocks i3status i3lock \
-	suckless-tools xbacklight feh conky lxappearance rofi ssh gsimplecal
+	suckless-tools xbacklight feh conky lxappearance rofi ssh gsimplecal mpv
 
 # vim-plug vim
 #curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
