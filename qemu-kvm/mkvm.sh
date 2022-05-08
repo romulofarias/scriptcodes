@@ -5,7 +5,7 @@ NOME=teste #TODO: receber nome da VM via prompt (var $1)
 VCPUS=1
 RAM=1024
 MAC=52:54:00:00:00:01 ##TODO: receber MAC via prompt (var $2)
-DEBIAN_VERSION=buster
+DEBIAN_VERSION=bullseye
 LOCATION='http://deb.debian.org/debian/dists/"$DEBIAN_VERSION"/main/installer-amd64'
 #---Não alterar a partir daqui
 virt-install --name=$NOME --vcpus=$VCPUS --ram $RAM \
