@@ -6,6 +6,15 @@ apt install pcmanfm neovim python3-neovim git tmux filezilla \
 	suckless-tools xbacklight feh conky lxappearance rofi ssh gsimplecal mpv \
     youtube-dl blueman
 
+# C/C++
+# apt install clang clang-format
+
+# Para usar coc.nvim
+# apt install nodejs npm
+
+# Com o coc.nvim instalado
+# coc-snippets coc-sh coc-clangd
+
 # vim-plug vim
 #curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 #  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
