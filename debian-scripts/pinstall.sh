@@ -4,7 +4,7 @@ apt install pcmanfm neovim python3-neovim git tmux filezilla \
 	papirus-icon-theme breeze-icon-theme breeze-cursor-theme rar unrar zip unzip \
     i3 i3blocks i3status i3lock \
 	suckless-tools xbacklight feh conky lxappearance rofi ssh gsimplecal mpv \
-    youtube-dl blueman celluloid
+    youtube-dl blueman celluloid network-manager imagemagick
 
 # C/C++
 # apt install clang clang-format
