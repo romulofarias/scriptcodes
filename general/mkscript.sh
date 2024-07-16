@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #-------------------------------------------------------------------------------
 # Nome     : mkscript.sh
-# Descrição: Programa criador de shell scripts 
+# Descrição: Programa criador de shell scripts
 # Versão   : 1.0
 # Criado em: sáb, 02/jan/2021
 #-------------------------------------------------------------------------------
@@ -12,20 +12,18 @@
 editor="vim"
 header="#!/usr/bin/env bash
 #-------------------------------------------------------------------------------
-# Nome     : $1
-# Descrição: 
-# Versão   :
+# Nome     : ${1##*/}
+# Descrição:
+# Versão   : 0.1
 # Criado em: $(date '+%a, %d/%b/%Y')
 #-------------------------------------------------------------------------------
-# Uso: $(basename $1)
+# Uso: ${1##*/}
 #-------------------------------------------------------------------------------
 "
 [[ $# -ne 1 ]] &&\
-	printf "Erro! Informe apenas 1 (um) argumento.\n"  &&\
-       	exit 1	
+	printf "Erro! Informe apenas 1 (um) argumento.\n" && exit 1
 [[ -f $1 ]] &&\
-	printf "Atenção! Arquivo já existe. Saindo...\n"  &&\
-	exit 1
+	printf "Atenção! Arquivo já existe. Saindo...\n" && exit 1
 
 echo "$header" > $1
 chmod +x $1
